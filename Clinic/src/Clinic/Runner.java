@@ -1,8 +1,8 @@
 package Clinic;
 import java.util.*;
 /**
- * Created by Владимир on 26.11.2015.
- * Клас Runner реализирует пользовательскую версию прогармы
+ * Created by Р’Р»Р°РґРёРјРёСЂ on 26.11.2015.
+ * РљР»Р°СЃ Runner СЂРµР°Р»РёР·РёСЂСѓРµС‚ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєСѓСЋ РІРµСЂСЃРёСЋ РїСЂРѕРіР°СЂРјС‹
  */
 public class Runner {
     public static void main(String[] args) {
