@@ -1,26 +1,26 @@
 package Clinic;
 
 /**
- * Created by Владимир on 26.11.2015.
- * Класс Dog реализирует питомца Собаку
+ * Created by Р’Р»Р°РґРёРјРёСЂ on 26.11.2015.
+ * РљР»Р°СЃСЃ Dog СЂРµР°Р»РёР·РёСЂСѓРµС‚ РїРёС‚РѕРјС†Р° РЎРѕР±Р°РєСѓ
  */
 public class Dog implements Pet {
 
     /**
-     * Обьект animal
+     * РћР±СЊРµРєС‚ animal
      */
     public Animal animal;
 
     /**
-     * Конструктор Dog
-     * @param animal - обьект animal
+     * РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Dog
+     * @param animal - РѕР±СЊРµРєС‚ animal
      */
     public Dog( Animal animal){
         this.animal = animal;
     }
 
     /**
-     * Обьект собака издает звуки
+     * РћР±СЊРµРєС‚ СЃРѕР±Р°РєР° РёР·РґР°РµС‚ Р·РІСѓРєРё
      */
     public void makeSound(){
         System.out.println("Gav-Gav");
@@ -28,7 +28,7 @@ public class Dog implements Pet {
 
     /**
      *
-     * @return name - имя животного
+     * @return name - РёРјСЏ Р¶РёРІРѕС‚РЅРѕРіРѕ
      */
     public String getName(){
         return this.animal.getName();
@@ -36,7 +36,7 @@ public class Dog implements Pet {
 
     /**
      *
-     * @param name - устанавливает имя животного
+     * @param name - СѓСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ РёРјСЏ Р¶РёРІРѕС‚РЅРѕРіРѕ
      */
     public void setName(String name){
         this.animal.setName(name);
